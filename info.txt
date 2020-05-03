@@ -1,0 +1,7 @@
+Nous devons tester 3 types de fichier:
+	- Malware
+	- Normal
+	- Mixed
+
+Les fichiers de log seront des fichier weblogng.txt
+
