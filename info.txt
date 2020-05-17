@@ -3,5 +3,17 @@ Nous devons tester 3 types de fichier:
 	- Normal
 	- Mixed
 
-Les fichiers de log seront des fichier weblogng.txt
+Les fichiers de log seront des fichier weblogng ou binetflow ou encore weblog
 
+Ce que j'ai fait :
+	- Un programme python qui récupère tout les premieres lignes des extentions que tu lui donnes pour faire les dataset
+			et qui met la première ligne de chaque fichier dans un fichier texte.
+	- J'ai trier les fichers en fonction de leur nombre d'argument c'est à dire que tu as deux type de 
+			fichier les regex et no-regex.
+	- Les regexs sont les fichiers intéressant, c'est à dire qui ont les même forme pour les datasets 
+			et les no-regex sont les fichiers qui ne sont pas interessant pour le projet
+
+Ce qu'il nous reste a faire c'est de choisir qu'elles sont les fichiers a prendre en fontion des fichiers regex.
+Choisir les colonnes interessantes pour notre projet
+Ensuite il faut les parser pour éviter les lignes corrompues
+Enfin faire l'algo d'IA
